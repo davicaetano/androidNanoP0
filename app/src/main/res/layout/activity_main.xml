@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#9fa8da"
+    >
+
+    <TextView
+        android:text="Davi Caetano Nanodegree Apps!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+    />
+    <Button
+        android:id="@+id/Button_1"
+        android:text="SPOTIFY STREAMER"
+        style="@style/button1"
+    />
+    <Button
+        android:id="@+id/Button_2"
+        android:text="Scores App"
+        style="@style/button1"
+    />
+    <Button
+        android:id="@+id/Button_3"
+        android:text="Library App"
+        style="@style/button1"
+    />
+    <Button
+        android:id="@+id/Button_4"
+        android:text="Build It Bigger"
+        style="@style/button1"
+    />
+    <Button
+        android:id="@+id/Button_5"
+        android:text="XYZ Reader"
+        style="@style/button1"
+    />
+    <Button
+        android:id="@+id/Button_6"
+        android:text="Capstone"
+        style="@style/button1"
+        android:background="#1a237e"
+    />
+</LinearLayout>

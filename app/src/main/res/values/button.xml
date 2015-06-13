@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#3949ab</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:onClick">click</item>
+    </style>
+</resources>
